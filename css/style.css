@@ -217,4 +217,46 @@
     flex: 0 0 calc(100% / 12 * 12);
   }
 }
+
+* {
+  border: none;
+  box-sizing: border-box;
+  font-family: 'Cherry Cream Soda', 'Microsoft Jhenghei';
+  margin: 0;
+  padding: 0;
+}
+
+#logo {
+  background-color: #036;
+  border-top: 4px solid #f93;
+  color: #fff;
+  height: 128px;
+  justify-content: center;
+  text-align: center;
+}
+
+#logo h1 {
+  padding-top: 76px;
+  line-height: 32px;
+}
+
+nav {
+  background-color: #393;
+}
+
+nav a {
+  color: #fff;
+  display: inline-block;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul.row {
+  justify-content: center;
+  width: 100%;
+}
 /*# sourceMappingURL=style.css.map */
