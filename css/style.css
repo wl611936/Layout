@@ -226,9 +226,36 @@
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 h1 {
   color: #ccf;
+  letter-spacing: 4px;
   line-height: 32px;
+  text-shadow: 0 0 8px #000;
+}
+
+li {
+  line-height: 16px;
+  list-style: none;
+}
+
+nav {
+  background-color: #36f;
+  padding: 16px 0;
+}
+
+nav a {
+  display: inline-block;
+  color: #ccf;
+  padding: 0 16px;
+}
+
+nav ul.row {
+  justify-content: center;
+  width: 100%;
 }
 
 #guides {

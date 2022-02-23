@@ -5,9 +5,31 @@
   margin: 0;
   padding: 0;
 }
+a{
+  text-decoration: none;
+}
 h1{
   color: $light;
+  letter-spacing: 4px;
   line-height: 32px;
+  text-shadow: 0 0 8px $dark;
+}
+li{
+  line-height: 16px;
+  list-style: none;
+}
+nav{
+  background-color: $secondary;
+  padding: 16px 0;
+  a{
+    display: inline-block;
+    color: $light;
+    padding: 0 16px;
+  }
+  ul.row{
+    justify-content: center;
+    width: 100%;
+  }
 }
 #guides{
   background-image: url(./pattern.svg);
