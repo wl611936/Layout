@@ -221,42 +221,32 @@
 * {
   border: none;
   box-sizing: border-box;
-  font-family: 'Cherry Cream Soda', 'Microsoft Jhenghei';
+  font-family: 'Righteous', 'Microsoft Jhenghei';
   margin: 0;
   padding: 0;
 }
 
-#logo {
-  background-color: #036;
-  border-top: 4px solid #f93;
-  color: #fff;
-  height: 128px;
-  justify-content: center;
-  text-align: center;
-}
-
-#logo h1 {
-  padding-top: 76px;
+h1 {
+  color: #ccf;
   line-height: 32px;
 }
 
-nav {
-  background-color: #393;
+#guides {
+  background-image: url(./pattern.svg);
+  min-height: 100vh;
+  width: 100vw;
+  position: fixed;
+  z-index: 999;
 }
 
-nav a {
-  color: #fff;
-  display: inline-block;
-  padding: 8px 16px;
-  text-decoration: none;
-}
-
-nav ul {
-  list-style: none;
-}
-
-nav ul.row {
+#logo {
+  background-color: #03c;
+  border-top: 16px solid #ccf;
   justify-content: center;
-  width: 100%;
+  padding: 48px 0 16px 0;
+}
+
+#logo .col-4 {
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */

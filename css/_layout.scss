@@ -1,35 +1,27 @@
 *{
   border: none;
   box-sizing: border-box;
-  font-family: 'Cherry Cream Soda', 'Microsoft Jhenghei';
+  font-family: 'Righteous', 'Microsoft Jhenghei';
   margin: 0;
-  padding: 0;  
+  padding: 0;
+}
+h1{
+  color: $light;
+  line-height: 32px;
+}
+#guides{
+  background-image: url(./pattern.svg);
+  min-height: 100vh;
+  width: 100vw;
+  position: fixed;
+  z-index: 999;
 }
 #logo{
-  background-color: $blue;
-  border-top: 4px solid $orange;
-  color: $white;
-  height: 128px;
+  background-color: $primary;
+  border-top: 16px solid $light;
   justify-content: center;
-  text-align: center;
-  h1{
-    padding-top: 76px;
-    line-height: 32px;
-  }
-}
-nav{
-  background-color: $lime;
-  a{
-    color: $white;
-    display: inline-block;
-    padding: 8px 16px;
-    text-decoration: none;
-  }
-  ul{
-    list-style: none;
-  }
-  ul.row{
-    justify-content: center;
-    width: 100%;
+  padding: 48px 0 16px 0;
+  .col-4{
+    text-align: center;
   }
 }
