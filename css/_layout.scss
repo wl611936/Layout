@@ -12,7 +12,15 @@ h1{
   color: $light;
   letter-spacing: 4px;
   line-height: 32px;
-  text-shadow: 0 0 8px $dark;
+  text-shadow: 2px 4px 8px $dark;
+}
+header{
+  height: 400px;
+  img{
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+  }
 }
 li{
   line-height: 16px;
@@ -39,10 +47,10 @@ nav{
   z-index: 999;
 }
 #logo{
-  background-color: $primary;
+  background-image: linear-gradient(-45deg, $primary, $secondary);
   border-top: 16px solid $light;
   justify-content: center;
-  padding: 48px 0 16px 0;
+  padding: 64px 0;
   .col-4{
     text-align: center;
   }
