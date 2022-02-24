@@ -259,10 +259,12 @@ li {
 
 nav {
   background-color: #36f;
+  box-shadow: 0 2px 4px #000;
   padding: 16px 0;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+  z-index: 99;
 }
 
 nav a {
@@ -284,6 +286,29 @@ nav ul.row {
   z-index: 999;
 }
 
+#info {
+  justify-content: center;
+}
+
+#info h2 {
+  margin-bottom: 48px;
+  text-align: center;
+}
+
+#info .info-item {
+  margin: 16px 0;
+}
+
+#info .info-item i {
+  display: inline-block;
+  -webkit-clip-path: circle();
+          clip-path: circle();
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  width: 32px;
+}
+
 #logo {
   background-image: linear-gradient(-45deg, #03c, #36f);
   border-top: 16px solid #ccf;
@@ -293,6 +318,15 @@ nav ul.row {
 
 #logo .col-4 {
   text-align: center;
+}
+
+#news {
+  background-attachment: fixed;
+  background-image: linear-gradient(to bottom, #ccf, transparent), url("https://picsum.photos/id/18/1600/800");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 128px;
 }
 
 #news [class^=col] {
